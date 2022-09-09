@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Copy to clipboard with jquery</title>
+    <!--google font link-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--font awesome cdn-->
+    <script
+      src="https://kit.fontawesome.com/616b392327.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--jquery cdn link-->
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.js"
+      integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+      crossorigin="anonymous"
+    ></script>
+    <!--stylesheet-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Copy to ClipBoard</h1>
+      <textarea class="text-field" id="textField">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur sapiente, temporibus autem quae rem tempore voluptate nihil commodi id. Voluptatum ab odit dolores quod nostrum laborum omnis, a reprehenderit velit.
+      </textarea>
+      <button class="copy-btn">Copy <i class="fas fa-clone"></i></button>
+      <span class="copied">copied</span>
+    </div>
+  </body>
+  <!--jquery file-->
+  <script src="main.js"></script>
+</html>
